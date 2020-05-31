@@ -4,16 +4,18 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        speed:300,
+
     },
+
 
 
     start () {
 
     },
 
-    update(dt){
+    BtnClickJump(){
+        GL.MessageCenter.emit(GL.EventDef._msg_begin_jump);
+    },
 
-       // this.node.y += this.speed * dt ;
-    }
+
 });

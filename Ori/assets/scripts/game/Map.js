@@ -9,7 +9,7 @@ cc.Class({
 
 
     start () {
-        this.initMap();
+        //this.initMap();
     },
 
     initMap(){

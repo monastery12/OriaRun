@@ -28,13 +28,17 @@ cc.Class({
 
         this.control.x += delta.x;
         this.control.y += delta.y;
+
+        GL.GameModel.setControlMoveX(this.control.x);
+        GL.GameModel.setControlMoveY(this.control.y);
     },
 
     touchEnd(event){
+
         this.control.x = 0 ;
         this.control.y = 0 ;
 
-        GL.MessageCenter.emit(GL.EventDef._msg_begin_jump);
+        //GL.MessageCenter.emit(GL.EventDef._msg_begin_jump);
         GL.GameModel.setControlTouchStartOn();
 
 

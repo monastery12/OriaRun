@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.8333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "sp.Skeleton": {
+        "_animationIndex": [
+          {
+            "frame": 0,
+            "value": 2
+          },
+          {
+            "frame": 1.8333333333333333,
+            "value": 3
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

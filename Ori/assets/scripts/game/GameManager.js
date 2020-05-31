@@ -10,7 +10,7 @@ cc.Class({
     onLoad(){
         cc.director.getPhysicsManager().enabled = true;
 
-        cc.director.getPhysicsManager().debugDrawFlags = true;
+        //cc.director.getPhysicsManager().debugDrawFlags = true;
 
         //重力设置
         //cc.director.getPhysicsManager().gravity = cc.v2(0, -640);
